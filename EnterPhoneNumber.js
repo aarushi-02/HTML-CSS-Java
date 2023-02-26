@@ -52,10 +52,3 @@ function sub(){
         return false;
     }
 }
-function res(){
-    document.getElementById("myForm").reset();  
-}
-setTimeout(function(){
-    alert("TIMEOUT!");
-    window.location.reload();
- }, 40000);
