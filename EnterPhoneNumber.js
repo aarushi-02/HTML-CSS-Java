@@ -1,5 +1,5 @@
 let phone = []
-function checkdata(){
+function testMyData(){
     var username = document.getElementById("username").value;
     dict = {
         one : 1,
@@ -41,14 +41,4 @@ function display(phone){
     });
     list.innerHTML=digits;
 }
-function sub(){
-    //let list = document.getElementById("phNum");
-    if ((phone.length)==10){
-        alert ("Successfully submitted");
-        return true;
-    }
-    else{
-        alert("Enter a valid number")
-        return false;
-    }
-}
+
